@@ -39,7 +39,7 @@ h3 { color:#1c3553; margin-top:0; }
 
 .profile-list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   border: 1px solid #dfe5eb;
   border-radius: 14px;
   overflow: hidden;
@@ -63,6 +63,10 @@ h3 { color:#1c3553; margin-top:0; }
 
 .profile-item:hover {
   background: #f7faff;
+}
+
+.profile-item:nth-child(odd) {
+  border-right: 1px solid #e5e9ee;
 }
 
 .profile-icon {
@@ -134,12 +138,14 @@ footer { background:#12243d; color:#dbe5ef; padding:30px 0; font-size:.9rem; }
   .hero-content { grid-template-columns:1fr; }
   .cards, .stats, .contact-grid { grid-template-columns:repeat(2,1fr); }
   .profile-list { grid-template-columns:1fr; }
+  .profile-item:nth-child(odd) { border-right:0; }
 }
 @media(max-width:600px) {
   .section { padding:60px 0; }
   .hero { padding:70px 0; }
   .cards, .cards.two, .stats, .contact-grid { grid-template-columns:1fr; }
   .profile-list { grid-template-columns:1fr; }
+  .profile-item:nth-child(odd) { border-right:0; }
   .profile-item { grid-template-columns:52px 1fr 18px; padding:18px; min-height:96px; }
   .profile-icon { width:46px; height:46px; }
   .timeline > div { grid-template-columns:1fr; gap:5px; }
