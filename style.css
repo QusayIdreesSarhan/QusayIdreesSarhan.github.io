@@ -149,3 +149,10 @@ footer { background:#12243d; color:#dbe5ef; padding:30px 0; font-size:.9rem; }
   .timeline > div { grid-template-columns:1fr; gap:5px; }
   .cv-box { flex-direction:column; align-items:flex-start; }
 }
+
+.pub-subtitle { margin: 34px 0 14px; color: #1d4f91; font-size: 1.25rem; }
+.pub-actions { margin-top: 12px; }
+.pub-link { display:inline-block; padding:7px 12px; border-radius:7px; background:#edf4fb; color:#0b63ce; text-decoration:none; font-weight:600; font-size:.9rem; }
+.pub-link:hover { background:#dfeeff; }
+.pub-unavailable { color:#7b8794; font-size:.88rem; font-style:italic; }
+.publication-item { position:relative; }
