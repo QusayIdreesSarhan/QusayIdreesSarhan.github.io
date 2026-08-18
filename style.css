@@ -154,5 +154,8 @@ footer { background:#12243d; color:#dbe5ef; padding:30px 0; font-size:.9rem; }
 .pub-actions { margin-top: 12px; }
 .pub-link { display:inline-block; padding:7px 12px; border-radius:7px; background:#edf4fb; color:#0b63ce; text-decoration:none; font-weight:600; font-size:.9rem; }
 .pub-link:hover { background:#dfeeff; }
+.pub-actions .pub-link + .pub-link { margin-left:8px; }
 .pub-unavailable { color:#7b8794; font-size:.88rem; font-style:italic; }
 .publication-item { position:relative; }
+
+.publication-group-title{margin:2rem 0 1rem;color:#1d4f91;font-size:1.35rem}.publication-card{padding:1.25rem 1.4rem;border:1px solid #e1e7ee;border-radius:12px;background:#fff}.publication-card+ .publication-card{margin-top:.9rem}.publication-card h3{margin:.35rem 0 .5rem;color:#1f2937;font-size:1.08rem}.publication-card p{margin:0;color:#5b6877;line-height:1.6}.publication-actions{display:flex;gap:.65rem;margin-top:.95rem;flex-wrap:wrap}.pub-button{display:inline-flex;align-items:center;padding:.45rem .8rem;border-radius:7px;text-decoration:none;font-weight:700;font-size:.88rem;border:1px solid #d7e0ea}.pdf-button{background:#eef6ff;color:#1459a6}.link-button{background:#f7f7f7;color:#374151}.pub-button:hover{transform:translateY(-1px)}
