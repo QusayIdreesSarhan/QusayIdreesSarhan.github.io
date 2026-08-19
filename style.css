@@ -159,3 +159,11 @@ footer { background:#12243d; color:#dbe5ef; padding:30px 0; font-size:.9rem; }
 .publication-item { position:relative; }
 
 .publication-group-title{margin:2rem 0 1rem;color:#1d4f91;font-size:1.35rem}.publication-card{padding:1.25rem 1.4rem;border:1px solid #e1e7ee;border-radius:12px;background:#fff}.publication-card+ .publication-card{margin-top:.9rem}.publication-card h3{margin:.35rem 0 .5rem;color:#1f2937;font-size:1.08rem}.publication-card p{margin:0;color:#5b6877;line-height:1.6}.publication-actions{display:flex;gap:.65rem;margin-top:.95rem;flex-wrap:wrap}.pub-button{display:inline-flex;align-items:center;padding:.45rem .8rem;border-radius:7px;text-decoration:none;font-weight:700;font-size:.88rem;border:1px solid #d7e0ea}.pdf-button{background:#eef6ff;color:#1459a6}.link-button{background:#f7f7f7;color:#374151}.pub-button:hover{transform:translateY(-1px)}
+
+
+.hero-intro { display:flex; flex-direction:column; }
+.hero-heading { display:flex; align-items:center; gap:28px; }
+.profile-photo { width:150px; height:150px; object-fit:cover; border-radius:50%; border:5px solid #fff; box-shadow:0 10px 30px rgba(26,53,82,.15); flex:0 0 auto; }
+.hero-heading h1 { margin-top:8px; }
+.hero-photo-card { width:150px; height:150px; object-fit:cover; border-radius:50%; display:block; margin-bottom:25px; border:5px solid #fff; box-shadow:0 8px 25px rgba(26,53,82,.12); }
+@media(max-width:600px) { .hero-heading { align-items:flex-start; gap:18px; } .profile-photo { width:105px; height:105px; } .hero-heading h1 { font-size:clamp(2.2rem,10vw,3.5rem); } }
