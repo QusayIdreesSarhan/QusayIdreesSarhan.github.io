@@ -165,5 +165,5 @@ footer { background:#12243d; color:#dbe5ef; padding:30px 0; font-size:.9rem; }
 .hero-heading { display:flex; align-items:center; gap:28px; }
 .profile-photo { width:150px; height:150px; object-fit:cover; border-radius:50%; border:5px solid #fff; box-shadow:0 10px 30px rgba(26,53,82,.15); flex:0 0 auto; }
 .hero-heading h1 { margin-top:8px; }
-.hero-photo-card { width:150px; height:150px; object-fit:cover; border-radius:50%; display:block; margin-bottom:25px; border:5px solid #fff; box-shadow:0 8px 25px rgba(26,53,82,.12); }
+.hero-photo-card { width:200px; height:200px; object-fit:cover; border-radius:50%; display:block; margin-bottom:25px; border:5px solid #fff; box-shadow:0 8px 25px rgba(26,53,82,.12); }
 @media(max-width:600px) { .hero-heading { align-items:flex-start; gap:18px; } .profile-photo { width:105px; height:105px; } .hero-heading h1 { font-size:clamp(2.2rem,10vw,3.5rem); } }
