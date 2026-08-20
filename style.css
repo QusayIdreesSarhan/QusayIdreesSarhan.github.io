@@ -15,7 +15,7 @@ nav { display:flex; gap:20px; flex-wrap:wrap; }
 nav a { text-decoration:none; color:#425466; font-size:.92rem; }
 nav a:hover { color:#0b63ce; }
 .menu-toggle { display:none; border:0; background:none; font-size:1.5rem; }
-.hero { background: linear-gradient(135deg,#f4f8fc,#fff); padding:40px 0 40px; }
+.hero { background: linear-gradient(135deg,#f4f8fc,#fff); padding:20px 0 20px; }
 .hero-content { display:grid; grid-template-columns: 1.5fr .7fr; gap:70px; align-items:center; }
 .eyebrow { color:#0b63ce; font-weight:700; text-transform:uppercase; letter-spacing:.08em; font-size:.8rem; }
 h1 { font-size: clamp(3rem, 7vw, 5.6rem); line-height:1.02; margin:15px 0 25px; letter-spacing:-.05em; color:#12243d; }
