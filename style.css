@@ -30,7 +30,7 @@ h1 { font-size: clamp(3rem, 7vw, 5.6rem); line-height:1.02; margin:15px 0 25px; 
 h2 { font-size:2.2rem; margin:0 0 28px; color:#12243d; letter-spacing:-.025em; }
 h3 { color:#1c3553; margin-top:0; }
 .section-intro { color:#64748b; }
-.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:15px; margin-top:35px; }
+.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:5px; margin-top:15px; }
 .stats div { padding:20px; border:1px solid #e3e9ef; border-radius:12px; background:#fff; }
 .stats strong { display:block; font-size:1.8rem; color:#0b63ce; }
 .stats span { color:#64748b; font-size:.9rem; }
