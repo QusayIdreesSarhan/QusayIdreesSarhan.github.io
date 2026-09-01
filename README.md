@@ -6,4 +6,4 @@ Dr. Qusay Idrees Sarhan received his B.Sc. degree in Software Engineering from t
 
 Link: https://qusayidreessarhan.github.io/
 <br/><br/>
-Note: All Rights Reserved - 2026
+Note: Copyright © 2026 Dr. Qusay Idrees Sarhan - Academic Website - All Rights Reserved.
