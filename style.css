@@ -101,14 +101,15 @@ h3 { color:#1c3553; margin-top:0; }
   font-weight: 300;
 }
 
-.uod-icon { background: #2b6bc7; }
-.scholar-icon { background: #4285f4; font-family: Georgia, serif; font-size: 1.7rem; }
-.orcid-icon { background: #8cc63f; font-size: .95rem; }
-.scopus-icon { background: #e85d1a; font-size: .95rem; }
-.wos-icon { background: #4130a5; font-size: .72rem; }
-.rg-icon { background: #13aaa5; font-family: Georgia, serif; font-size: 1.5rem; }
-.github-icon { background: #222; font-size: .8rem; }
-.linkedin-icon { background: #0a66c2; font-size: 1.25rem; }
+.uod-icon { background: #2b6bc7; font-size: 1.8rem;}
+.scholar-icon { background: #4285f4; font-family: Georgia, serif; font-size: 1.8rem; }
+.orcid-icon { background: #8cc63f; font-size: 1.8rem; }
+.scopus-icon { background: #e85d1a; font-size: 1.8rem; }
+.wos-icon { background: #4130a5; font-size: 1.8rem; }
+.rg-icon { background: #13aaa5; font-family: Georgia, serif; font-size: 1.8rem; }
+.github-icon { background: #222; font-size: 1.8rem; }
+.linkedin-icon { background: #0a66c2; font-size: 1.8rem; }
+.loop-icon { background: #0a66c2; font-size: 1.8rem; }
 .academia-icon { background: #5c2ca0; font-family: Georgia, serif; font-size: 1.8rem; }
 
 .cards { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
